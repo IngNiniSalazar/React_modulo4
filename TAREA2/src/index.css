@@ -1,0 +1,28 @@
+
+body{
+  background-color: rgb(190, 141, 236);
+}
+
+.div{
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  font-size: xx-large;
+  margin: 40px;
+  border: #61dafb solid 3px;
+  background-color: rgb(62, 70, 164);
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+
+img{
+  margin: auto;
+  display: block;
+  border-radius: 100px;
+}
+.centrado{
+  text-align: center;
+}
+
