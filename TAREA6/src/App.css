@@ -1,0 +1,119 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin: 50px 100px 0;
+  padding: 2px;
+  border-radius:  10px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -ms-flex-line-pack: center;
+  border-top-left-radius: 20px;
+  /*border-radius: 40px;
+  box-shadow: 0 4px 8px black;
+  
+  margin: 14px;
+  transition: box-shadow 0.3s ease; */
+
+}
+
+
+
+
+.container {
+  flex-direction: row;
+  border: solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 300px;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+body{
+  background-image: url("../public/light-green-background-with-small-and-big-stars-blur-decorative-design-in-simple-style-with-stars-pattern-for-websites-landing-pages-vector.jpg");
+}
+
+.container img {
+ 
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+.logo {
+  height: 600em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888888;
+}
+
+
+div {
+  flex-direction: row;
+  
+}
+
+
+.containerTitle{
+  font-size: larger;
+
+}
+.containerDetails{
+  background-color: rgb(145, 189, 63);
+  border: rgb(128, 128, 128) 8px dashed ;
+  border-radius: 20px;
+  color: black;
+  align-items: center;
+}
+
+button {
+  border: black;
+  border-radius: 10em;
+  background-color: rgb(121, 119, 7);
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(121, 7, 96), rgb(238, 241, 247));
+  color: white;
+
+
+}
+
+.titulo{
+  text-align: center;
+}
+
+.centrar{
+  display:flex;
+  justify-content: center;
+
+}
